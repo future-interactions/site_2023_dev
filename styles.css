@@ -96,7 +96,7 @@ p {
 .strapline {
     text-align: center;
     transform: translateY(-1.5rem);
-    padding: 120px;
+    /* padding: 120px; */
     font-size: 4rem;
     line-height: 4rem;
     letter-spacing: -0.1rem;
