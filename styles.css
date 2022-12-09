@@ -5,7 +5,7 @@
 body {
     font-family: 'DM Sans';
     font-size: 1.5rem;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -19,6 +19,7 @@ p {
     overflow: hidden;
     padding: .5rem;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .header a {
@@ -30,11 +31,16 @@ p {
     float: right;
 
 }
-
+.footer {
+    overflow: hidden;
+    padding: .5rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 20px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -49,45 +55,46 @@ p {
 .card {
     margin-top: 8px;
     padding: 1rem;
-    height: 20rem;
+    /* height: 20rem; */
     border-radius: 0.3rem;
     background-image:  url('assets/ng_test_img.png');   
-     font-size: 3rem;
-    line-height: 3rem;
+     font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -0.1rem;
-     
+    color: white;
+    /* height: 100%; */
 }
 
 .card1 {
     margin-top: 8px;
-    padding: 1rem;
-    height: 20rem;
+    padding: 1.5rem;
+    /* height: 20rem; */
     border-radius: 10px;
-    background-color: rgb(244, 232, 178);
-    font-size: 3rem;
-    line-height: 3rem;
+    background-color: rgb(225, 255, 235);
+    font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -0.1rem;
 }
 
 .card2 {
     margin-top: 8px;
-    padding: 1rem;
-    height: 20rem;
+    padding: 1.5rem;
+    /* height: 20rem; */
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    font-size: 3rem;
-    line-height: 3rem;
-    letter-spacing: -0.1rem;
+    background-color: rgb(255, 240, 240);
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.05rem;
 }
 
 .card3 {
     margin-top: 8px;
-    padding: 1rem;
-    height: 20rem;
+    padding: 1.5rem;
+    /* height: 20rem; */
     border-radius: 10px;
-    background-color: rgb(255, 224, 254);
-    font-size: 3rem;
-    line-height: 3rem;
+    background-color: rgb(255, 235, 254);
+    font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -0.1rem;
 }
 
@@ -97,25 +104,31 @@ p {
 .strapline {
     text-align: center;
     transform: translateY(-1.5rem);
-    padding: 120px 0px 120px 0px; 
+    padding: 120px 220px 120px 220px; 
     font-size: 4rem;
     line-height: 4rem;
     letter-spacing: -0.1rem;
 }
 
-hr {
-    border-top: 1px solid black;
-}
+
 
 @media (max-width: 800px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
+    .strapline {
+        text-align: center;
+        transform: translateY(-1.5rem);
+        padding: 120px 160px 120px 160px; 
+        font-size: 4rem;
+        line-height: 4rem;
+        letter-spacing: -0.1rem;
+    }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .header a {
         float: none;
         display: block;
@@ -129,5 +142,13 @@ hr {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+    .strapline {
+        text-align: center;
+        transform: translateY(-1.5rem);
+        padding: 120px 20px 120px 20px; 
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.1rem;
     }
 }
