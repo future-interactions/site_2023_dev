@@ -1,4 +1,7 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+  body {
     font-family: 'DM Sans';
     font-size: 1.5rem;    
     background-color: rgb(255, 255, 255);
@@ -20,12 +23,30 @@ p {
 
 .header a {
     font-size: 1rem;
+    padding-right: 1.5rem;
 }
 .header-right {
     float: right;
-
+    
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
 
 .strapline {
     padding: 60px;
@@ -34,6 +55,18 @@ p {
     font-size: 3rem;
 
 }
+
+hr{
+    border-top: 1px solid black;
+}
+
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -44,4 +77,8 @@ p {
     .header-right {
       float: right;
     }
+    .column {
+        flex: 100%;
+        max-width: 100%;
+      }
   }
