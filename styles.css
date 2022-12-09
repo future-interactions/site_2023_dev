@@ -20,7 +20,6 @@ p {
     background-color: #f1f1f1;
     padding: .5rem;
     font-size: 1.5rem;
-
 }
 
 .header a {
@@ -36,8 +35,6 @@ p {
     padding: 60px;
     text-align: center;
     background: #656565;
-    color: white;
-    font-size: 50px;
 }
 
 @media screen and (max-width: 500px) {
