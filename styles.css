@@ -17,7 +17,6 @@ p {
 
 .header {
     overflow: hidden;
-    padding: .25rem;
     font-size: 1.5rem;
     line-height: 1.2rem;
 }
@@ -157,7 +156,6 @@ p {
     }
     .strapline {
         text-align: center;
-        transform: translateY(-1.5rem);
         padding: 120px 160px 120px 160px; 
         font-size: 4rem;
         line-height: 4rem;
@@ -167,6 +165,8 @@ p {
 
 
 @media screen and (max-width: 650px) {
+
+  
     .header a {
         float: none;
         display: block;
@@ -184,7 +184,7 @@ p {
     .strapline {
         text-align: center;
         background-image:  url('assets/flower_mob.png') ;   
-        padding: 100px 20px 120px 20px; 
+        padding: 7rem 1rem 7rem 1rem; 
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
