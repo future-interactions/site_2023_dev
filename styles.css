@@ -183,8 +183,8 @@ p {
     }
     .strapline {
         text-align: center;
-        transform: translateY(-1.5rem);
-        padding: 120px 20px 120px 20px; 
+        background-image:  url('assets/flower_mob.png') ;   
+        padding: 100px 20px 120px 20px; 
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
