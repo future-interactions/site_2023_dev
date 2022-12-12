@@ -19,6 +19,7 @@ p {
     overflow: hidden;
     font-size: 1.5rem;
     line-height: 1.2rem;
+    background-color: white;
 }
 
 .header a {
@@ -32,11 +33,11 @@ p {
 }
 
 .strapline {
-    text-align: center;   
+    text-align: center;
     background-size: 100%;
-     /* transform: translateX(-10rem);  */
+    /* transform: translateX(-10rem);  */
     color: black;
-    padding: 2rem 15rem 4rem 15rem;  
+    padding: 4rem 15rem 4rem 15rem;
     font-size: 3.5rem;
     line-height: 3.5rem;
     letter-spacing: -0.1rem;
@@ -44,14 +45,39 @@ p {
 
 .strapline_img {
     text-align: center;
-    position: relative;
     left: -.5rem;
     width: 100vw;
-    background-image:  url('assets/flower.png') ;   
+    height: 440px;
+
+    background-image: url('assets/flower.png');
+
     background-size: cover;
- /* transform: translateZ(-1.5rem);  */
-    color: white;
-    padding: 7rem 15rem 7rem 15rem; 
+    /* transform: translateZ(-1.5rem);  */
+    color: rgb(255, 255, 255);
+    padding: 6rem 15rem 5rem 15rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.1rem;
+}
+
+.videoDiv2 {
+    width: 100%;
+    left: -.5rem;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+
+.videoMessage2 {
+    position: absolute;
+    text-align: center;
+    left: -.5rem;
+    
+
+    transform: translateY(-27rem);  
+    color: rgb(255, 255, 255);
+     padding: 6rem 15rem 5rem 15rem; 
     font-size: 3.5rem;
     line-height: 3.5rem;
     letter-spacing: -0.1rem;
@@ -62,11 +88,12 @@ p {
     padding: .5rem;
     font-size: 1rem;
     line-height: 1.2rem;
-  }
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0rem 0.25rem; */
+    padding: 0rem 0.25rem;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -80,13 +107,13 @@ p {
 
 .card {
     margin-top: .5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
     padding: 1rem;
     /* height: 20rem; */
     /* border-radius: 0.3rem; */
-    background-image:  url('assets/ng_test_img.png');   
-     font-size: 2rem;
+    background-image: url('assets/ng_test_img.png');
+    font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -0.1rem;
     color: white;
@@ -111,21 +138,21 @@ p {
 
 .card2 {
     margin-top: .5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
     padding: 1.5rem;
     /* height: 20rem; */
     /* border-radius: 10px; */
     background-color: rgb(255, 240, 240);
     font-size: 1.5rem;
-    
+
     line-height: 1.6rem;
     letter-spacing: -0.05rem;
 }
 
 .card3 {
     margin-top: 0.5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
     padding: .5rem;
     /* height: 20rem; */
@@ -136,18 +163,51 @@ p {
     line-height: 2rem;
     letter-spacing: -0.1rem;
 }
+
 .card4 {
     margin-top: .5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
     padding: 1.5rem;
     /* height: 20rem; */
     /* border-radius: 10px; */
-    background:linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
     color: white;
     font-size: 1.1rem;
     line-height: 1.rem;
     letter-spacing: -0.01rem;
+}
+
+.card5 {
+    margin-top: 1rem;
+    /* margin-bottom:rem; */
+
+    padding: 1.2rem;
+    /* height: 20rem; */
+    /* border-radius: 0.5rem; */
+    background: linear-gradient(12deg, rgba(76, 93, 130, 0.07) 0%, rgba(255, 143, 187, 1) 100%);
+    border-color: black;
+    /* border-style: dotted; */
+    border-width: 1px;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.05rem;
+}
+
+.card6 {
+    margin-top: 1rem;
+    /* margin-bottom:rem; */
+
+    padding: 1.2rem;
+    /* height: 20rem; */
+    /* border-radius: 0.5rem; */
+    background: linear-gradient(88deg, rgba(255, 139, 33, 0.23) 7%, rgba(255, 230, 143, 1) 98%);
+    border-color: black;
+    /* border-style: dotted; */
+    border-width: 1px;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.05rem;
 }
 
 .desc {
@@ -168,9 +228,10 @@ p {
         flex: 50%;
         max-width: 50%;
     }
+
     .strapline {
         text-align: center;
-        padding: 120px 160px 120px 160px; 
+        padding: 120px 160px 120px 160px;
         font-size: 4rem;
         line-height: 4rem;
         letter-spacing: -0.1rem;
@@ -180,7 +241,7 @@ p {
 
 @media screen and (max-width: 650px) {
 
-  
+
     .header a {
         float: none;
         display: block;
@@ -195,18 +256,20 @@ p {
         flex: 100%;
         max-width: 100%;
     }
+
     .strapline_img {
         text-align: center;
-        background-image:  url('assets/flower_mob.png') ;   
-        padding: 7rem 1rem 7rem 1rem; 
+        background-image: url('assets/flower_mob.png');
+        padding: 7rem 1rem 7rem 1rem;
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
     }
+
     .strapline {
         text-align: center;
-       
-        padding: 7rem 1rem 7rem 1rem; 
+
+        padding: 7rem 1rem 7rem 1rem;
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
