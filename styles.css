@@ -9,7 +9,9 @@ body {
 }
 
 
-
+video{
+    width: 100vw;
+}
 
 .header {
     /* overflow: hidden; */
@@ -56,8 +58,7 @@ body {
 }
 
 .videoDiv2 {
-     left: -.5rem; */
-
+     left: -.5rem; 
     margin: auto;
     display: block;
     position: relative;
@@ -68,10 +69,8 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
-    
-
-
 }
+
 
 
 .videoMessage2 {
@@ -81,7 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
-    padding: 6rem 12rem 5rem 12rem;
+    padding: 6rem 10.5rem 5rem 10.5rem;
     font-size: 3.2rem;
     line-height: 3.2rem;
     letter-spacing: -0.1rem;
@@ -229,7 +228,11 @@ body {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 910px) {
+
+    video{
+        width:auto;
+    }
     .column {
         flex: 50%;
         max-width: 50%;
@@ -257,7 +260,9 @@ body {
 
 
 @media screen and (max-width: 650px) {
-
+    video{
+        width:auto;
+    }
 
     .header a {
         float: none;
