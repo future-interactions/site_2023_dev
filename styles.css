@@ -80,7 +80,7 @@ video{
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
-    padding: 6rem 10.5rem 5rem 10.5rem;
+    padding: 6rem 12rem 5rem 12rem;
     font-size: 3.2rem;
     line-height: 3.2rem;
     letter-spacing: -0.1rem;
@@ -228,7 +228,7 @@ video{
 
 
 
-@media (max-width: 910px) {
+@media (max-width: 960px) {
 
     video{
         width:auto;
@@ -251,7 +251,7 @@ video{
         left: -.5rem;
        
         color: rgb(255, 255, 255);
-        padding: 7rem 1rem 7rem 1rem;
+        padding: 7rem 3rem 7rem 3rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
         letter-spacing: -0.1rem;
@@ -284,7 +284,7 @@ video{
     .strapline_img {
         text-align: center;
         background-image: url('assets/flower_mob.png');
-        padding: 7rem 1rem 7rem 1rem;
+        padding: 7rem 3rem 7rem 3rem;
         font-size: 3.5rem;
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
@@ -308,7 +308,7 @@ video{
         left: -.5rem;
        
         color: rgb(255, 255, 255);
-        padding: 7rem 1rem 7rem 1rem;
+        padding: 7rem 2.5rem 7rem 2.5rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
         letter-spacing: -0.1rem;
