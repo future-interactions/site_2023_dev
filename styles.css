@@ -148,11 +148,11 @@ video{
     padding: 1.5rem;
     /* height: 20rem; */
     /* border-radius: 10px; */
-    background-color: rgb(255, 240, 240);
-    font-size: 1.5rem;
+    background-color: rgb(237, 237, 237);
+    font-size: 1rem;
 
-    line-height: 1.6rem;
-    letter-spacing: -0.05rem;
+    line-height: 1.2rem;
+    /* letter-spacing: -0.05rem; */
 }
 
 .card3 {
