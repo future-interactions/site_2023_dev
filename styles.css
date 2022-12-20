@@ -58,7 +58,7 @@ video{
 }
 
 .videoDiv2 {
-     left: -.5rem; 
+     left: -1rem; 
     margin: auto;
     display: block;
     position: relative;
@@ -91,7 +91,7 @@ video{
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 1rem;
-    letter-spacing: -0.03rem;
+    /* letter-spacing: -0.03rem; */
     line-height: 1.2rem;
 }
 
@@ -143,7 +143,7 @@ video{
 
 .card2 {
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 
     padding: 1.5rem;
     /* height: 20rem; */
@@ -217,8 +217,16 @@ video{
 
 .desc {
     font-family: 'DM Mono';
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1rem;
+    letter-spacing: 0rem;
+
+}
+
+.services {
+    font-family: 'DM Mono';
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     letter-spacing: 0rem;
 
 }
