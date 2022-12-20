@@ -58,7 +58,7 @@ video{
 }
 
 .videoDiv2 {
-     left: -1rem; 
+      left: -0.5rem;  
     margin: auto;
     display: block;
     position: relative;
@@ -68,7 +68,7 @@ video{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 
