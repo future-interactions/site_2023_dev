@@ -9,7 +9,7 @@ body {
 }
 
 
-video{
+video {
     width: 100vw;
 }
 
@@ -58,7 +58,7 @@ video{
 }
 
 .videoDiv2 {
-      left: -0.5rem;  
+    left: -0.5rem;
     margin: auto;
     display: block;
     position: relative;
@@ -142,7 +142,7 @@ video{
 }
 
 .card2 {
-    margin-top: .5rem;
+    margin-top: 1rem;
     /* margin-bottom: 1rem; */
 
     padding: 1.5rem;
@@ -238,9 +238,10 @@ video{
 
 @media (max-width: 960px) {
 
-    video{
-        width:auto;
+    video {
+        width: auto;
     }
+
     .column {
         flex: 50%;
         max-width: 50%;
@@ -253,11 +254,17 @@ video{
         line-height: 4rem;
         letter-spacing: -0.1rem;
     }
+
+    .videoDiv2 {
+        width: 103%;
+        overflow: hidden;
+    }
+
     .videoMessage2 {
         position: absolute;
         text-align: center;
         left: -.5rem;
-       
+
         color: rgb(255, 255, 255);
         padding: 7rem 3rem 7rem 3rem;
         font-size: 2.5rem;
@@ -268,8 +275,8 @@ video{
 
 
 @media screen and (max-width: 650px) {
-    video{
-        width:auto;
+    video {
+        width: auto;
     }
 
     .header a {
@@ -306,19 +313,22 @@ video{
         line-height: 3.5rem;
         letter-spacing: -0.1rem;
     }
+
     .videoDiv2 {
-    width: 104%;
-    overflow:hidden;
+        width: 104%;
+        overflow: hidden;
     }
+
     .videoMessage2 {
         position: absolute;
         text-align: center;
         left: -.5rem;
-       
+
         color: rgb(255, 255, 255);
         padding: 7rem 2.5rem 7rem 2.5rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
         letter-spacing: -0.1rem;
     }
+    
 }
